@@ -10,8 +10,8 @@ int main(void)
 
     printf("Length:[%d, %d]\n", len1, len2);
 
-    _printf("Printing an integer: %d\n", 12345);
-    printf("Printing an integer: %d\n", 12345);
+    _printf("Printing an integer: %d\n", 1024);
+    printf("Printing an integer: %d\n", 1024);
 
     return (0);
 }

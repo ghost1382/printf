@@ -17,7 +17,8 @@ int print_hex_upper(va_list args);
 int print_rot13(va_list args);
 int print_reverse(va_list args);
 int print_custom(va_list args);
-int print_recursive(int num);
+int print_number(int n);
+
 /**
  * struct print_functions - Struct to hold format specifier and corresponding function
  * @specifier: The format specifier
