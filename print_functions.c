@@ -42,3 +42,7 @@ int print_percent(va_list args)
 	_putchar('%');
 	return (1);
 }
+int print_int(va_list args)
+{
+	return (print_number(args));
+}

@@ -17,7 +17,9 @@ int print_hex_upper(va_list args);
 int print_rot13(va_list args);
 int print_reverse(va_list args);
 int print_custom(va_list args);
-
+int print_int(va_list args);
+int print_unsigned_number(unsigned int n);
+int print_number(va_list args);
 /**
  * struct print_functions - Struct to hold format specifier and corresponding function
  * @specifier: The format specifier
