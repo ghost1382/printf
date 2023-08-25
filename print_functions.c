@@ -46,3 +46,4 @@ int print_int(va_list args)
 {
 	return (print_number(args));
 }
+int print_binary(va_list args);

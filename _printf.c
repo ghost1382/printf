@@ -18,6 +18,7 @@ int _printf(const char *format, ...)
 		{'%', print_percent},
 		{'d', print_int},
 		{'i', print_int},
+		{'b', print_binary}, 
 		/* Add more format specifiers here */
 		{'\0', NULL}
 	};
