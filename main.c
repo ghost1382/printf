@@ -1,6 +1,6 @@
 #include "main.h"
-#include <stdio.h>  /* Include the stdio.h header for printf
-*/
+#include <stdio.h>
+
 int main(void)
 {
     int len1, len2;
@@ -9,6 +9,9 @@ int main(void)
     len2 = printf("Let's try to printf a simple sentence.\n");
 
     printf("Length:[%d, %d]\n", len1, len2);
+
+    _printf("Printing an integer: %d\n", 12345);
+    printf("Printing an integer: %d\n", 12345);
 
     return (0);
 }
